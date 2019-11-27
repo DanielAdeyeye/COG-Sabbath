@@ -1,0 +1,372 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/*header*/
+
+.header {
+  height: 10vh;
+  justify-content: center;
+  width: 100%;
+}
+/*Navigation*/
+
+.nav {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+}
+
+.menu {
+  margin: 0 30px 0 0;
+  text-transform: uppercase;
+}
+
+.menu a {
+  clear: right;
+  text-decoration: none;
+  color: #2552a4;
+  margin: 0 10px;
+  line-height: 70px;
+}
+
+.menu a:hover {
+  color: orange;
+}
+
+span {
+  color: #2552A4;
+}
+
+span:hover {
+  color: orange;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+#toggle {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+/*Logo Class*/
+
+.logo-box {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  color: black;
+  display: block;
+  max-width: 100%;
+}
+
+/*Fonts*/
+
+.findustext {
+  text-align:center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  color: #2552A4;
+  font-size: 32px;
+  text-align: center;
+  text-decoration-line: none;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 0px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center
+}
+
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: #2552A4;
+  text-align: center;
+  top: 0px;
+}
+
+h5 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+h6 {
+  font-size: 1em;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 200%;
+  letter-spacing: 1px;
+  padding-bottom: 1em;
+  color: black;
+}
+
+
+#childrentitle {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+}
+
+#youthh1 {
+  font-family: 'Pacifico', cursive;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+}
+
+#womenh1 {
+  font-family: 'Great Vibes', cursive;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%
+}
+
+#menh1 {
+  font-family: 'Alfa Slab One', cursive;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%
+}
+
+#prayh1 {
+  font-family: 'Alfa Slab One', cursive;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%
+}
+/*Lists*/
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  color: orange;
+}
+
+.find {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 200%;
+  letter-spacing: 1px;
+  padding-bottom: 1em;
+  color: black;
+  text-align: center;
+}
+
+#mainTitle {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  font-weight: 400;
+  color: #2552A4;  
+}
+
+#eventsh4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: #2552A4;
+  text-align: center;
+}
+
+.whitespace {
+  white-space: normal;
+}
+
+/*Background Images*/
+
+#welcome{
+  height:500px;
+  width: 100%;
+  background:url('../images/ser.jpg') no-repeat 0 -295px;
+  background-size: cover;
+  color:#ffffff;
+  justify-content: center;
+}
+
+#children {
+  width: 100%;
+  background: url(https://www.cogsabbath.com/hp_wordpress/wp-content/uploads/2017/05/abstract-colour-blend-1024x1024.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+#youth { 
+  width: 100%;
+  background: url(https://www.cogsabbath.com/hp_wordpress/wp-content/uploads/2017/05/Free-Wall-Desktop-Photos-1920x1200.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+#women {
+  width: 100%;
+  background: url(https://www.cogsabbath.com/hp_wordpress/wp-content/uploads/2017/05/45787ff5-9694-4ba7-8b1b-e41b4c10f2c6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+#men {
+  width: 100%;
+  background: url(https://www.cogsabbath.com/hp_wordpress/wp-content/uploads/2017/05/e412b74c-728a-4345-a3ad-36c301c7e82d.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+#prayer {
+  width: 100%;
+  background: url(https://www.cogsabbath.com/hp_wordpress/wp-content/uploads/2017/05/prayer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+
+/*Sections*/
+
+#Vision {
+  background-color: #ffffff;
+  color: black;
+}
+
+.blue {
+  background-color: #2552A4;
+  color: #ffffff;
+  width: 100%;
+}
+
+/*Footer*/
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2552A4;
+  text-align: center;
+}
+
+/*Contact Us Form*/
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #2552A4;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.form {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: #2552A4;
+  padding-bottom: 10px;
+}
+
+/*Google Maps*/
+
+#mapcanvas {
+  display: block;
+  margin: 0 auto;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 1050px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    background-color: #ffffff;
+  }
+  .menu a {
+    float: right;
+    color: orange;
+    border-bottom: 5px solid #ffffff;
+    margin: 0;
+  }
+  .menu a:hover {
+    color: green;
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
+  #welcome {
+    max-width: 100%;
+    background: url(../images/ser.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+  }
+}
